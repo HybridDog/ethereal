@@ -115,7 +115,7 @@ minetest.register_abm({
 		
 		-- check light
 		local light = minetest.get_node_light(pos)
-		if not light then
+		if not light
 		or light < 5 then
 			return
 		end

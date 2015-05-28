@@ -404,7 +404,7 @@ for _,items in pairs({
 	{"gravel", "dirt"},
 	{"dirt", "sand"},
 	{"ice", "snow"},
-} do
+}) do
 	local a,b = unpack(items)
 	a = "default:"..a
 	minetest.register_craft({
